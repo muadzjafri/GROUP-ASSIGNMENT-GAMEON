@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212"> <LinearLayout
+    android:layout_centerInParent="true"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GameOn"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:textColor="#FF6D00"/> <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Find. Book. Play."
+    android:textSize="18sp"
+    android:textColor="#FFFFFF"
+    android:letterSpacing="0.2"
+    android:layout_marginTop="8dp"/> </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FYP Project 2026"
+        android:textColor="#757575"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"/>
+
+</RelativeLayout>

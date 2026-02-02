@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    android:layout_marginHorizontal="8dp"
+    app:cardCornerRadius="16dp"
+    app:cardBackgroundColor="#1E1E1E"
+    app:cardElevation="6dp">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical" android:layout_marginBottom="8dp">
+                <TextView android:id="@+id/tvGame" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Game" android:textSize="22sp" android:textStyle="bold" android:textColor="#FFFFFF"/>
+                <TextView android:id="@+id/tvSkill" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="PRO" android:textSize="11sp" android:textStyle="bold" android:textColor="#000000" android:background="#FFD600" android:paddingHorizontal="10dp" android:paddingVertical="4dp"/>
+            </LinearLayout>
+            <TextView android:id="@+id/tvLocation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Location" android:textColor="#B0BEC5" android:textSize="14sp" android:layout_marginBottom="4dp"/>
+            <TextView android:id="@+id/tvTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Time" android:textColor="#FF6D00" android:textStyle="bold" android:textSize="14sp"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:background="#2C2C2C" android:padding="12dp" android:gravity="center_vertical">
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SLOTS LEFT" android:textSize="10sp" android:textColor="#757575" android:textStyle="bold"/>
+                <TextView android:id="@+id/tvPlayerCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3 Spots" android:textSize="16sp" android:textStyle="bold" android:textColor="#FFFFFF"/>
+            </LinearLayout>
+            <Button android:id="@+id/btnJoin" android:layout_width="wrap_content" android:layout_height="40dp" android:text="JOIN" android:backgroundTint="#00C853" android:textColor="#FFFFFF" android:textStyle="bold" app:cornerRadius="20dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

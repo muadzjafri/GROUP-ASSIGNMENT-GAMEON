@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp"
+    android:background="#121212">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GameOn"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#FF6D00"
+        android:layout_marginBottom="40dp"/>
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#757575"
+        android:backgroundTint="#FF6D00"
+        android:layout_marginBottom="20dp"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#757575"
+        android:backgroundTint="#FF6D00"
+        android:layout_marginBottom="30dp"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Login"
+        android:backgroundTint="#FF6D00"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New here? Create Account"
+        android:textColor="#BDBDBD"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:id="@+id/btnBiometric"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_fingerprint"
+        android:background="@drawable/circle_background"
+        android:padding="12dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        app:tint="#FF6D00"/>
+
+</LinearLayout>
