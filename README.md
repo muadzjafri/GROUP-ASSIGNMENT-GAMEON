@@ -1,11 +1,4 @@
-App Major Features
-i. Secure Biometric Login
-Utilizes the androidx.biometric library to provide hardware-level security. Returning users can authenticate using Fingerprint or Face Unlock, ensuring that booking data remains secure.
-ii. Smart Venue Discovery (Map Integration)
-Integrates the Google Places SDK to allow users to filter and locate sports venues (e.g., "Futsal", "Badminton") near their current location. The map provides real-time data including venue names, ratings, and navigation support.
-iii. Digital Booking & QR Ticketing
-A paperless booking system where successful reservations generate a unique QR Code using the ZXing Library. This QR code contains encrypted booking details (Venue, Date, Time) and is generated locally on the device to optimize performance.
-iv. Admin Verification Scanner
-A dedicated feature for venue managers to scan user tickets. It performs a real-time Atomic Transaction in Firebase Firestore to verify the booking status. It instantly detects invalid or previously used tickets to prevent fraud.
-v. Social Team Finder
-A real-time "Team Feed" where users can host or join games. The system handles concurrency ensuring that once a team slot is filled, it is instantly locked for other users.
+Recreational sports such as futsal, badminton, basketball and many more, plays an important role in promoting physical health, social interaction, and community engagement. Despite their popularity, the organization of these activities remains manual and fragmented. Especially when compared to highly digitized industries like transportation and food delivery. Players and organizers still rely on phone calls, spreadsheets, and scattered chat groups to book venues and coordinate games which often lead to inefficiency and miscommunication.
+
+In addressing these challenges, GameOn is proposed as a centralized mobile platform designed to streamline these sports management. The platform will integrate real-time venue booking with a social matchmaking system that allows players to find teams or fill vacant slots easily. By centralizing venue availability, player coordination, and check-in processes into a single application, GameOn aims to create an efficient, reliable and connected recreational sports ecosystem for players, venue operators and sports communities.
+
